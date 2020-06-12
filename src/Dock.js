@@ -11,7 +11,7 @@ export default class Phone extends React.Component {
     }
 
     _openRandomAnimalSite() {
-        window.open("https://reddit.com/r/awww",'');
+        window.open("https://reddit.com/r/aww",'');
     }
 
     render() {
