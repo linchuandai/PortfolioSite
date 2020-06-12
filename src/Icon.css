@@ -1,0 +1,28 @@
+.icon {
+    flex: 1;
+    height: 50px;
+    display: inline-block;
+}
+
+.icon-button {
+    background-color: transparent;
+    align-content: space-between;
+    border: none;
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon-image {
+    height: 35px;
+    width: 35px;
+}
+
+.icon-text {
+    font-size: calc(1px + 2vmin);
+    color: black;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}

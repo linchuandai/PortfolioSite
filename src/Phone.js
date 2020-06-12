@@ -1,14 +1,17 @@
 import React from 'react';
 import './Phone.css'
 
+import Dock from './Dock.js'
+
 export default class Phone extends React.Component {
     render() {
         return (
             <div class="iphone-x">
                 <div class="screen">
-                    <p class="screen-text">This site is currently under construction.</p>
-                    <a class="screen-text" href="https://linchuandai.github.io/site">Click here to view my old site.</a>
-                </div>                
+                </div>
+                <div class="dock-position">     
+                    <Dock/>   
+                </div>    
             </div>
         );
     }

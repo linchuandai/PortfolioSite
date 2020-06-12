@@ -1,0 +1,9 @@
+.dock {
+    width: 90%;
+    height: 55px;
+    border-radius: 16px;
+    border: solid transparent;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+}
